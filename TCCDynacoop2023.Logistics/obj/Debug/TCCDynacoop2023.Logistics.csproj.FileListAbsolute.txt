@@ -1,0 +1,8 @@
+C:\Users\savio\OneDrive\Documentos\Projetos\TCCDynacoop2023\TCCDynacoop2023.Logistics\bin\Debug\TCCDynacoop2023.Logistics.exe.config
+C:\Users\savio\OneDrive\Documentos\Projetos\TCCDynacoop2023\TCCDynacoop2023.Logistics\bin\Debug\TCCDynacoop2023.Logistics.exe
+C:\Users\savio\OneDrive\Documentos\Projetos\TCCDynacoop2023\TCCDynacoop2023.Logistics\bin\Debug\TCCDynacoop2023.Logistics.pdb
+C:\Users\savio\OneDrive\Documentos\Projetos\TCCDynacoop2023\TCCDynacoop2023.Logistics\obj\Debug\TCCDynacoop2023.Logistics.csproj.AssemblyReference.cache
+C:\Users\savio\OneDrive\Documentos\Projetos\TCCDynacoop2023\TCCDynacoop2023.Logistics\obj\Debug\TCCDynacoop2023.Logistics.csproj.SuggestedBindingRedirects.cache
+C:\Users\savio\OneDrive\Documentos\Projetos\TCCDynacoop2023\TCCDynacoop2023.Logistics\obj\Debug\TCCDynacoop2023.Logistics.csproj.CoreCompileInputs.cache
+C:\Users\savio\OneDrive\Documentos\Projetos\TCCDynacoop2023\TCCDynacoop2023.Logistics\obj\Debug\TCCDynacoop2023.Logistics.exe
+C:\Users\savio\OneDrive\Documentos\Projetos\TCCDynacoop2023\TCCDynacoop2023.Logistics\obj\Debug\TCCDynacoop2023.Logistics.pdb
