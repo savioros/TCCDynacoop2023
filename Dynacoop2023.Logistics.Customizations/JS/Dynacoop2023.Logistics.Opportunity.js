@@ -35,8 +35,8 @@ TccDynacoop.Opportunity = {
 				// Return Type: mscrm.cr252_CloneopportunityResponse
 				// Output Parameters
 				var newopportunityid = result["NewOpportunityId"];
-				//window.location.href = `https://orge54c24c3.crm2.dynamics.com/main.aspx?appid=8ae4c66a-0db0-ed11-9884-000d3a888d06&forceUCI=1&pagetype=entityrecord&etn=opportunity&id=${newopportunityid}`
-				Xrm.Utility.openEntityForm("opportunity", newopportunityid)
+				var newopportunityid = result["NewOpportunityId"];
+				window.open(`https://orge54c24c3.crm2.dynamics.com/main.aspx?appid=8ae4c66a-0db0-ed11-9884-000d3a888d06&forceUCI=1&pagetype=entityrecord&etn=opportunity&id=${newopportunityid}`, '_blank');
 			}).catch(function (error) {
 				console.log(error.message);
 			});
