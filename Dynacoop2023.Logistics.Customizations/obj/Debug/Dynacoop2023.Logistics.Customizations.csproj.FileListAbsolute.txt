@@ -1,8 +1,7 @@
-C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\bin\Debug\Dynacoop2023.Logistics.Customizations.exe.config
-C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\bin\Debug\Dynacoop2023.Logistics.Customizations.exe
 C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\bin\Debug\Dynacoop2023.Logistics.Customizations.pdb
 C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\obj\Debug\Dynacoop2023.Logistics.Customizations.csproj.AssemblyReference.cache
-C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\obj\Debug\Dynacoop2023.Logistics.Customizations.csproj.SuggestedBindingRedirects.cache
 C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\obj\Debug\Dynacoop2023.Logistics.Customizations.csproj.CoreCompileInputs.cache
-C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\obj\Debug\Dynacoop2023.Logistics.Customizations.exe
 C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\obj\Debug\Dynacoop2023.Logistics.Customizations.pdb
+C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\bin\Debug\Dynacoop2023.Logistics.Customizations.dll.config
+C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\bin\Debug\Dynacoop2023.Logistics.Customizations.dll
+C:\Users\andre\OneDrive\Área de Trabalho\TCC\TCCDynacoop2023\Dynacoop2023.Logistics.Customizations\obj\Debug\Dynacoop2023.Logistics.Customizations.dll
