@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="JS\Dynacoop2023.Logistics.Cep.js" />
     <Content Include="JS\Dynacoop2023.Logistics.Opportunity.js" />
   </ItemGroup>
   <ItemGroup>
