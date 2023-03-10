@@ -9,14 +9,14 @@ TccDynacoop.Contact = {
 		var cpfValue = formContext.getAttribute("cr252_cpf").getValue();
 
 		if (cpfValue == null) {
-			DynamicsAlert("Preencha o CPF", "CPF VAZIO");
+			DynamicsAlert("Fill in the CPF", "CPF EMPTY");
 		}
 		else {
 			if (validarCPF(cpfValue) == true) {
-				DynamicsAlert("CPF preenchido é valido", "CPF VALIDO");
+				DynamicsAlert("Filled CPF is valid", "VALID CPF");
 			}
 			else {
-				DynamicsAlert("CPF preenchido é invalido", "CPF INVALIDO");
+				DynamicsAlert("Filled CPF is invalid", "INVALID CPF");
 			}
 
 			function validarCPF(cpf) {
