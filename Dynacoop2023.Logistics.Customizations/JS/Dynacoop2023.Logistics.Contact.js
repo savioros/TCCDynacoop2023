@@ -16,7 +16,7 @@ TccDynacoop.Contact = {
 				DynamicsAlert("CPF preenchido é valido", "CPF VALIDO");
 			}
 			else {
-				DynamicsAlert("CPF´preenchido é invalido", "CPF INVALIDO");
+				DynamicsAlert("CPF preenchido é invalido", "CPF INVALIDO");
 			}
 
 			function validarCPF(cpf) {
