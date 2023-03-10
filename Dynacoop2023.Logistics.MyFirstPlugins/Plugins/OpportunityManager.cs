@@ -10,7 +10,7 @@ namespace Dynacoop2023.Logistics.MyFirstPlugins
     public class OpportunityManager : PluginCore
     {
 
-        public override void ExecutePlugin(IServiceProvider serviceProvider)
+        protected override void ExecutePlugin(IServiceProvider serviceProvider)
         {
             this.TracingService.Trace("Inicio");
 
