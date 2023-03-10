@@ -143,8 +143,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\OpportunityController.cs" />
+    <Compile Include="Controller\ProductController.cs" />
     <Compile Include="DynacoopISV\PluginCore.cs" />
     <Compile Include="Model\Opportunity.cs" />
+    <Compile Include="Model\Product.cs" />
     <Compile Include="Plugins\OpportunityManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
