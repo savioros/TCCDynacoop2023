@@ -82,7 +82,7 @@ TccDynacoop.Account = {
         var name = formContext.getAttribute("name").getValue();
 
         if (name == null) {
-            TccDynacoop.Account.DynamicsAlert("Preencha o Account Name", "Account Name Vazio")
+            TccDynacoop.Account.DynamicsAlert("Fill in the Account Name", "Account Name Empty")
         }
         else {
         var loweredText = name.toLowerCase();
