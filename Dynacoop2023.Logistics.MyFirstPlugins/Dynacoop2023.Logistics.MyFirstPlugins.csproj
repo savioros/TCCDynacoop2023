@@ -53,7 +53,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>KeyFile.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>FileKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
@@ -142,15 +142,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\AccountController.cs" />
+    <Compile Include="Controller\ContactController.cs" />
     <Compile Include="Controller\OpportunityController.cs" />
     <Compile Include="DynacoopISV\PluginCore.cs" />
+    <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\Contact.cs" />
     <Compile Include="Model\Opportunity.cs" />
+    <Compile Include="Plugins\AccountManager.cs" />
+    <Compile Include="Plugins\ContactManager.cs" />
     <Compile Include="Plugins\OpportunityManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="KeyFile.pfx" />
+    <None Include="FileKey.snk" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

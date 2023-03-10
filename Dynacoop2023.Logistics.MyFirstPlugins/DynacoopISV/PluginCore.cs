@@ -20,6 +20,6 @@ namespace Dynacoop2023.Logistics.MyFirstPlugins.DynacoopISV
             ExecutePlugin(serviceProvider);
         }
 
-        public abstract void ExecutePlugin(IServiceProvider serviceProvider);
+        protected abstract void ExecutePlugin(IServiceProvider serviceProvider);
     }
 }
