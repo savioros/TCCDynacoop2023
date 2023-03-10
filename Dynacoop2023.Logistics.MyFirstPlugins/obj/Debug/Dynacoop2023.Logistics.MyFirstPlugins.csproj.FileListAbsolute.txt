@@ -169,3 +169,7 @@ C:\Users\savio\Source\Repos\TCCDynacoop2023\Dynacoop2023.Logistics.MyFirstPlugin
 C:\Users\savio\Source\Repos\TCCDynacoop2023\Dynacoop2023.Logistics.MyFirstPlugins\obj\Debug\Dynacoop2023.Logistics.MyFirstPlugins.csproj.CopyComplete
 C:\Users\savio\Source\Repos\TCCDynacoop2023\Dynacoop2023.Logistics.MyFirstPlugins\obj\Debug\Dynacoop2023.Logistics.MyFirstPlugins.dll
 C:\Users\savio\Source\Repos\TCCDynacoop2023\Dynacoop2023.Logistics.MyFirstPlugins\obj\Debug\Dynacoop2023.Logistics.MyFirstPlugins.pdb
+C:\Users\vitux\source\repos\TCCDynacoop2023\Dynacoop2023.Logistics.MyFirstPlugins\obj\Debug\Dynacoop2023.Logistics.MyFirstPlugins.csproj.AssemblyReference.cache
+C:\Users\vitux\source\repos\TCCDynacoop2023\Dynacoop2023.Logistics.MyFirstPlugins\obj\Debug\Dynacoop2023.Logistics.MyFirstPlugins.csproj.CoreCompileInputs.cache
+C:\Users\vitux\source\repos\TCCDynacoop2023\Dynacoop2023.Logistics.MyFirstPlugins\obj\Debug\Dynacoop2023.Logistics.MyFirstPlugins.dll
+C:\Users\vitux\source\repos\TCCDynacoop2023\Dynacoop2023.Logistics.MyFirstPlugins\obj\Debug\Dynacoop2023.Logistics.MyFirstPlugins.pdb
