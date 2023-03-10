@@ -9,21 +9,19 @@ AlfaPeople.Account = {
     },
     function cleanCep() {
     //Limpa valores do formulário de cep.
-    formContext.getAttribute('rua').setValue("");
-    formContext.getAttribute('bairro').setValue("");
-    formContext.getAttribute('cidade').setValue("");
-    formContext.getAttribute('uf').setValue("");
-    formContext.getAttribute('ibge').setValue("");
+    formContext.getAttribute('Address1_Line1').setValue("");
+    formContext.getAttribute('Address1_Line2').setValue("");
+    formContext.getAttribute('Address1_City').setValue("");
+    formContext.getAttribute('Address1_StateOrProvince').setValue("");
 },
 
 function callBack(conteudo) {
     if (!("erro" in conteudo)) {
         //Atualiza os campos com os valores.
-        formContext.getAttribute('rua').setValue(conteudo.logradouro);
-        formContext.getAttribute('bairro').setValue(conteudo.bairro);
-        formContext.getAttribute('cidade').setValue(conteudo.localidade);
-        formContext.getAttribute('uf').setValue(conteudo.uf);
-        formContext.getAttribute('ibge').setValue(conteudo.ibge);
+        formContext.getAttribute('Address1_Line1').setValue(conteudo.logradouro);
+        formContext.getAttribute('Address1_Line2').setValue(conteudo.Address1_Line2);
+        formContext.getAttribute('Address1_City').setValue(conteudo.localidade);
+        formContext.getAttribute('Address1_StateOrProvince').setValue(conteudo.Address1_StateOrProvince);
     } //end if.
     else {
         //CEP não Encontrado.
@@ -33,7 +31,7 @@ function callBack(conteudo) {
 },
 
 GetSet: function searchCep() {
-    var cepReceived = formContext.getAttribute("cep").getValue();
+    var cepReceived = formContext.getAttribute("Address1_PostalCode").getValue();
 
     //Nova variável "cep" somente com dígitos.
     var cep = cepReceived.replace(/\D/g, '');
@@ -48,11 +46,10 @@ GetSet: function searchCep() {
         if (validacep.test(cep)) {
 
             //Preenche os campos com "..." enquanto consulta webservice.
-            formContext.getAttribute('rua').setValue("...");
-            formContext.getAttribute('bairro').setValue("...");
-            formContext.getAttribute('cidade').setValue("...");
-            formContext.getAttribute('uf').setValue("...");
-            formContext.getAttribute('ibge').setValue("...");
+            formContext.getAttribute('Address1_Line1').setValue("...");
+            formContext.getAttribute('Address1_Line2').setValue("...");
+            formContext.getAttribute('Address1_City').setValue("...");
+            formContext.getAttribute('Address1_StateOrProvince').setValue("...");
 
             //Cria um elemento javascript.
             var script = document.createElement('script');
