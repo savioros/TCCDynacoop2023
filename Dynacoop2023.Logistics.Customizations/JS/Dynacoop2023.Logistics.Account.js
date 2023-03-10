@@ -75,5 +75,34 @@ TccDynacoop.Account = {
         const result = 11 - (sum % 11)
 
         return result > 9 ? 0 : result
+    },
+    NameOnChange: function (executionContext) {
+        var formContext = executionContext.getFormContext();
+
+        var name = formContext.getAttribute("name").getValue();
+
+        if (name == null) {
+            TccDynacoop.Account.DynamicsAlert("Preencha o Account Name", "Account Name Vazio")
+        }
+        else {
+        var loweredText = name.toLowerCase();
+
+        var words = loweredText.split(" ");
+
+        for (var a = 0; a < words.length; a++) {
+            var w = words[a];
+
+            var firstLetter = w[0];
+            w = firstLetter.toUpperCase() + w.slice(1);
+
+            words[a] = w;
+        }
+
+        nameUp = words.join(" ");
+           
+            formContext.getAttribute("name").setValue(nameUp)
+        }
+
+
     }
 }
