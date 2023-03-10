@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JS\Dynacoop2023.Logistics.Account.js" />
+    <Content Include="JS\Dynacoop2023.Logistics.Contact.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
