@@ -142,9 +142,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\Cloneopportunity.cs" />
     <Compile Include="Controller\AccountController.cs" />
     <Compile Include="Controller\ContactController.cs" />
     <Compile Include="Controller\OpportunityController.cs" />
+    <Compile Include="DynacoopISV\ActionCore.cs" />
     <Compile Include="DynacoopISV\PluginCore.cs" />
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\Contact.cs" />
