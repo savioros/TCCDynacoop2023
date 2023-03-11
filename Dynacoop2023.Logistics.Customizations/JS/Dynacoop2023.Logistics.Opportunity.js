@@ -4,8 +4,6 @@ if (typeof (TccDynacoop.Opportunity) == "undefined") { TccDynacoop.Opportunity =
 TccDynacoop.Opportunity = {
 	Ribbon: {
 		Clone: function (formContext) {
-			console.log("Clonando :)")
-
 			var id = Xrm.Page.data.entity.getId();
 
 			var execute_cr252_Cloneopportunity_Request = {
@@ -31,10 +29,8 @@ TccDynacoop.Opportunity = {
 				}
 			).then(function (responseBody) {
 				var result = responseBody;
-				console.log(result);
 				// Return Type: mscrm.cr252_CloneopportunityResponse
 				// Output Parameters
-				var newopportunityid = result["NewOpportunityId"];
 				var newopportunityid = result["NewOpportunityId"];
 				window.open(`https://orge54c24c3.crm2.dynamics.com/main.aspx?appid=8ae4c66a-0db0-ed11-9884-000d3a888d06&forceUCI=1&pagetype=entityrecord&etn=opportunity&id=${newopportunityid}`, '_blank');
 			}).catch(function (error) {
