@@ -4,8 +4,6 @@ if (typeof (TccDynacoop.Opportunity) == "undefined") { TccDynacoop.Opportunity =
 TccDynacoop.Opportunity = {
 	Ribbon: {
 		Clone: function (formContext) {
-			console.log("Clonando :)")
-
 			var id = Xrm.Page.data.entity.getId();
 
 			var execute_cr252_Cloneopportunity_Request = {
@@ -31,7 +29,6 @@ TccDynacoop.Opportunity = {
 				}
 			).then(function (responseBody) {
 				var result = responseBody;
-				console.log(result);
 				// Return Type: mscrm.cr252_CloneopportunityResponse
 				// Output Parameters
 				var newopportunityid = result["NewOpportunityId"];
